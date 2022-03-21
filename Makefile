@@ -12,7 +12,7 @@ all:
 	mcopy -i $(IMGNAME).img $(IMGNAME).efi ::/EFI/BOOT
 	mcopy -i $(IMGNAME).img src/bootloader/root/startup.nsh ::
 	mcopy -i $(IMGNAME).img src/bootloader/root/kernel.elf ::
-	mcopy -i $(IMGNAME).img src/bootloader/root/me.png ::
+	mcopy -i $(IMGNAME).img src/bootloader/root/sussy.png ::
 	mcopy -i $(IMGNAME).img src/bootloader/root/font.sfn ::
 	rm $(IMGNAME).efi
 	rm src/bootloader/*.o
